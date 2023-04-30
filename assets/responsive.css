@@ -1,4 +1,4 @@
-@media (max-width: 768.99px) {
+@media (max-width: 768px) {
     html {
         font-size: 62.5%;
         position: relative;
@@ -29,6 +29,9 @@
     }
     .bg-nav {
         display: none;
+    }
+    .content-right {
+        border-left: none;
     }
     .responsive-text {
         width: 100%;
@@ -82,7 +85,6 @@
         display: none;
     }
     .container-content {
-        padding: 0;
     }
     .content-title-responsive {
         flex-direction: column-reverse;
@@ -100,11 +102,7 @@
         text-align: center;
     }
     .content-title > h1 {
-        font-size: 2.5rem !important;
-        float: left;
-        font-size: 3rem;
-        line-height: 4.1rem;
-        line-height: 100%;
+        font-size: 2rem ;
 
     }
     .content-title ul {
@@ -185,7 +183,6 @@
 
     }
     .contact-address > p, .contact-address  > .contact-address-social {
-        width: 100%;
         font-size: 1.8rem;
         line-height: 1.4;
 
@@ -207,27 +204,60 @@
 
 
 }
+@media (max-width: 1199.98px) { 
+    .header-logo > h1 {
+        font-size: 1.555rem;
+    }
+    .header-search {
+        font-size: 1rem;
+        
+    }
+    .nav-list-text  {
+        font-size: 1.4rem;
+    }
+    .nav-list {
+        width: 100%;
+    }
+    .content-title ul {
+        gap: 1.5rem;
+    }
+    .content-title ul li {
+        font-size: 1rem;
+    }
+    .content__title-text {
+        text-align: center ;
+    }
+    .container-content-right {
+        display: none;
+    }
+    .footer-text-left {
+        display: none;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .icon-social {
+        position: absolute;
+        top: 0;
+        right: 0;
+        object-fit: cover;
+    }
+    .footer .contact-social .contact-address-social {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    .contact-address > .footer-text-right{
+        font-size: 1.6rem;
+    }
+    .contact-address-social {
+        display: block !important;
+        padding-right: 2.4rem;
 
+    }
+    .contact-address p {
+        font-size: 1.5rem;
 
-
-
-
-
-
-@media (min-width: 768px) {
-    
-    
-
-}
-
-@media (min-width: 992px) {
-
-}
-
-@media (min-width: 1200px) { 
-
-}
-
-@media (min-width: 1400px) { 
-
-}
+    }
+}    
