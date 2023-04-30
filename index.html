@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="./assets/style.css" />
   <link rel="stylesheet" href="./assets/bootstrap-5.2.3-dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./assets/reset.css" />
+  <link rel="stylesheet" href="./assets/responsive.css">
 </head>
 
 <body> 
@@ -25,8 +26,32 @@
   <div class="header">
     <div class="header-wrapper">
       <div class="header-logo">
-        <img src="./assets/img/Magazines Science.png" alt="" class="img-logo" />
+        <h1>Magazines Science</h1>
+        <i class="header__logo-icon-menu">
+          <svg
+           xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+          </svg>
+        </i>
+        <div class="header-icon-responsive ">
+          <img src="./assets/img/bgr.png" alt="" class="img-bgr-icon">
+          <div class="img-notify">
+            <img src="./assets/img/bell.png" alt="" class="img-notify-bell">
+          </div>
+        </div>
       </div>
+      <!-- Responsive nav mobi -->
+      <div class="responsive-text">
+        <p class="responsive-text-right">Tin mới</p>
+        <div class="responsive-text-left">
+          <i>
+            <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+            <svg width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up-right"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </i>
+          <span>Xem nhiều</span>
+
+        </div>
+      </div>
+      <!-- end responsive -->
       <div class="header-search position-relative">
         <input type="search" class="btn-search ps-5" placeholder="Tìm kiếm">
           <div class="header-search-icon">
@@ -51,14 +76,14 @@
     <div class="d-flex justify-content-between py-3">
       <div class="col nav-list">
         <ul class="d-flex gap-5 nav-list pt-0">
-          <li class="nav-list-text">Trang chủ</li>
-          <li class="nav-list-text">Thể thao</li>
-          <li class="nav-list-text">Thế giới</li>
-          <li class="nav-list-text text-dark">Khoa học</li>
+          <a class="text-decoration-none" href="#"><li class="nav-list-text">Trang chủ</li></a>
+          <a class="text-decoration-none" href="#"><li class="nav-list-text">Thể thao</li></a>
+          <a class="text-decoration-none" href="#"><li class="nav-list-text">Thế giới</li></a>
+          <a class="text-decoration-none" href="#"><li class="nav-list-text text-dark">Khoa học</li></a>
         </ul>
       </div>
       <div class="col">
-        <div class=" d-flex justify-content-end mx-3 mt-2">
+        <div class=" d-flex justify-content-end mx-3 mt-2 cursor-pointer ">
           <div class="me-2">
             <div class="position-relative">
               <img src="./assets/img/bgr.png" alt="" class="img-bgr-icon">
@@ -78,37 +103,40 @@
     </div>
   </div>
   <!-- End header and Nav -->
-  <div class="container-fluid">
+  <div class="container-fluid ">
     <!-- Content here -->
-    <div class="d-flex justify-content-between">
+    <div class="d-flex justify-content-between content-title-responsive">
       <div class="content-title pt-4 ms-5">
         <h1>Khoa Học</h1>
         <ul class="d-flex pt-4 ms-2 gap-5">
           <li class="text-tm">Tin mới</li>
           <li>Phát minh</li>
           <li>Công nghệ</li>
+          <li>
+              <img src="./assets/img/right.png" alt="" class="icon-next-right">
+          </li>
         </ul>
       </div>
       <div class="mt-4 mx-2">
         <p class="content__title-text">Nơi bạn tìm được những công nghệ mới nhất</p>
       </div>
     </div>
-    <div class=" d-flex justify-content-between p-0 container-content ps-5" >
-      <div class="col-8 mt-4 col-8-mr ">
+    <div class=" d-flex justify-content-between  container-content  container-responsive" >
+      <div class="col-md-8 mt-4 col-8-mr ">
         <div class="row d-flex flex-column border-dark border-end">
           <div class="col content-first ">
-            <div class="row d-flex justify-content-between flex-row pt-2">
-              <div class="col">
-                <img src="./assets/img/img-content-1.png" alt="" class="content-img-1 pt-4 pb-2">
+            <div class="row d-flex justify-content-around flex-row pt-4 ">
+              <div class=" col-7">
+                <img style="width: 100%; height: 100%; object-fit: contain;" src="./assets/img/img-content-1.png" alt="" class="content-img-1 pb-2">
               </div>
-              <div class="col content-text-1 px-5">
-                <h2 class="pt-4">Thiết bị in 3D đeo trên <br> người theo dõi sức khỏe</h2>
-                <p class="pt-4 content-text-1-info">Thiết bị của Đại học Arizona mang đến những lợi ích vượt trội như theo dõi sức khỏe liên tục hay tùy chỉnh theo cơ thể từng người.
+              <div class=" col-5 content-text-1 ">
+                <h2 class="">Thiết bị in 3D đeo trên <br> người theo dõi sức khỏe</h2>
+                <p class=" content-text-1-info">Thiết bị của Đại học Arizona mang đến những lợi ích vượt trội như theo dõi sức khỏe liên tục hay tùy chỉnh theo cơ thể từng người.
                 </p>
               </div>
             </div>
           </div>
-          <div class="p-0">
+          <div class="p-0 content-2-responsive-none">
             <div class=" d-flex justify-content-between flex-row content-second pt-4">
               <div class="col position-relative ps-0">
                 <h2 class="content-text-2">Đội quân robot xử lý 168.000 bưu phẩm mỗi ngày</h2>
@@ -133,9 +161,9 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col ">
             <div class="row d-flex justify-content-between flex-row pb-5">
-              <div class="col content-text-3 ps-0">
+              <div class="col content-text-3 ">
                 <h2 class="text-decoration-underline">Tin Hot</h2>
                 <p class="content-text-3-info pt-3 pb-5">Những cỗ máy xây dựng mạnh nhất thế giới</p>
                 <div class="content-2-btn pb-2 pt-5">
@@ -157,8 +185,8 @@
           </div>
         </div>
       </div>
-      <div class="col-4 container-content-right">
-        <div class="col col__table">
+      <div class="col-md-4 container-content-right">
+        <div class="col col__table text-decoration-none">
           <table class="table">
             <thead>
               <tr class="header-table">
@@ -187,10 +215,7 @@
                 <td class="table-time">thời gian</td>
                 <td>nội dung</td>
               </tr>
-            </tbody>
-            <tfoot>
-              ...
-            </tfoot>       
+            </tbody>      
           </table>
         </div>
         <div class="col content-right pt-1 ps-1">
@@ -237,4 +262,4 @@
   <script src="./assets/main.js"></script>
 </body>
 
-</html>
+</html>  

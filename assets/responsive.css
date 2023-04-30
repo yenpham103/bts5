@@ -1,0 +1,221 @@
+@media (max-width: 575.98px) {
+    html {
+        position: relative;
+    }
+    .header-logo {
+        width: 100%;
+        background-color: #15B6E9;
+        margin-bottom: 13px;
+    }
+    .header-logo > h1 {
+        position: absolute;
+        top: 0;
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+        height: 56px;
+        line-height: 56px;
+
+    }
+    .header__logo-icon-menu {
+        display: block;
+        color: #fff  !important;
+        position: absolute;
+        top: -5px;
+        left: 14px;
+    }
+    .bg-nav {
+        display: none;
+    }
+    .responsive-text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 28px;
+        align-items: center;
+        padding-top: 13px;
+        border-top: 1px solid #E8E7E7; 
+    }
+    .header-icon-responsive {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 5px;
+    }
+    .responsive-text-right {
+        width: 126px;
+        height: 26px;
+        padding: 3px 24px;
+        background-color: #E8E7E7;
+        text-align: center;
+        
+    }
+    .responsive-text-left {
+        width: 126px;
+        height: 26px;
+        padding: 3px 8px;
+        background-color: #E8E7E7;
+        text-align: center;
+
+    }
+    .header-wrapper {
+        flex-direction: column;
+        border-bottom: 1px solid #E8E7E7;
+        padding-bottom: 13px;
+        margin: 0;
+    }
+    .img-notify-bell {
+        position: absolute;
+        top: 35%;
+    }
+    .header-logo {
+        width: 100%;
+        height: 56px;
+
+    }
+    .header-search {
+        display: none;
+    }
+    .container-content {
+        padding: 0;
+    }
+    .content-title-responsive {
+        flex-direction: column-reverse;
+    }
+    .content-title {
+        display: flex;
+        flex-direction: column;
+        padding-top: 12px !important;
+    }
+    .content-title-responsive  .content__title-text {
+        font-size: 20px;
+        line-height: 26px;
+        font-family: 'Red Hat Display', sans-serif !important;
+        width: 100%;
+        text-align: center;
+    }
+    .content-title > h1 {
+        float: left;
+        font-size: 30px;
+        line-height: 41px;
+        line-height: 100%;
+
+    }
+    .content-title ul {
+        padding-top: 28px !important;
+        font-weight: 500;
+    }
+    .content-title ul li {
+        width: 100%;
+        font-size: 14px;
+        justify-content: space-around;
+    }
+    .icon-next-right {
+        display: block;
+        width: 20px;
+        height: 20px;
+        float: right;
+    }
+    .content-text-1 > h2 {
+        font-size: 16px;
+        line-height: 1.4;
+        padding-right: 60px;
+
+
+    }
+    .content-text-1 > .content-text-1-info {
+        font-size: 14px;
+        font-weight: 300px;
+        line-height: 1.4;
+        padding-top: 10px;
+    }
+    .content-img-1 {
+        width: 217px;
+        height: 217px;
+        padding-top: 2px !important;
+    }
+    .content-text-1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 18px;
+    }
+    .container-content-right {
+        display: none;
+    }
+    .col-img-1 {
+        width: 50%;
+    }
+    .content-2-responsive-none {
+        display: none;
+    }
+    .content-text-3 >h3, .content-text-3 > .content-text-3-info {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+    .content-2-btn {
+        font-size: inherit;
+    }
+    .content-img-3 {
+        width: 100%;
+        height: 100%;
+    }
+    .content-text-3 {
+        padding: 4px 10px;
+    }
+    .footer-text-left {
+        display: none;
+    }
+    .footer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contact-address > p, .contact-address  > .contact-address-social {
+        width: 100%;
+        font-size: 18px;
+        line-height: 1.4;
+
+    }
+    .contact-address  > .contact-address-social {
+        padding-right: 14px;
+
+    }
+    .icon-social {
+        position: absolute;
+        top: 0;
+        right: 0;
+        object-fit: cover;
+    }
+    .footer .contact-social .contact-address-social {
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) { 
+
+}
+
+@media (min-width: 1400px) { 
+
+}

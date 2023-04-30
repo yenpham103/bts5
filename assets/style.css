@@ -16,6 +16,7 @@ body {
   align-items: center;
 }
 .header-logo {
+  position: relative;
   width: 428px;
   height: 59px;
   font-size: 50px;                      
@@ -23,6 +24,26 @@ body {
   line-height: 59px;
   font-weight: 700;
   letter-spacing: 0rem;
+}
+.header-logo > h1 {
+  font-size: 50px;
+  font-style: italic;
+  line-height: 60px;
+  font-weight: 700;
+  color: #00D1FF;
+  -webkit-text-stroke: 1px #736B85;
+}
+.responsive-text {
+  display: none;
+}
+.icon-next-right {
+  display: none;
+}
+.header__logo-icon-menu {
+  display: none;
+}
+.header-icon-responsive {
+  display: none;
 }
 .header-search-icon {
   position: absolute;
@@ -41,6 +62,9 @@ body {
   border: 1px solid #a4a4a4;
   font-size: 35px;
   
+}
+.btn-search:focus {
+  outline: none ;
 }
 .text-search {
   color: #a4a4a4;
@@ -61,6 +85,10 @@ li {
   font-size: 30px;
   font-weight: 400;
   line-height: 42px; 
+  cursor: pointer;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
 .img-notify-bell {
   position: absolute;
@@ -91,6 +119,7 @@ li {
 }
 .content-title ul li {
   font-size: 25px;
+  cursor: pointer;
 }
 .content__title-text {
   font-size: 20px;
@@ -105,11 +134,15 @@ li {
   font-weight: 500;
 }
 .content-text-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   font-size: 25px;
   font-weight: 500;
   line-height: 29px;
 }
 .content-text-1-info {
+  padding-top: 20px;
   font-size: 20px;
   max-width: 265px;
   line-height: 29px;
@@ -132,16 +165,21 @@ li {
 }
 .content-img-2 > img {
   float: right;
+  padding-right: 11px;
 }
 .content-text-3 {
+  font-weight: 500;
   font-size: 25px;
   line-height: 29px;
-
+  padding-left:  0 !important;
 }
 .content-text-3-info {
   font-size: 20px;
   line-height: 29px;
   max-width: 330px;
+}
+.content-text-3 > h2 {
+  cursor: pointer;
 }
 .content-img-3 {
   float: right;
@@ -173,7 +211,6 @@ li {
 .col__table {
   border-bottom: 1px solid #000;
   padding-bottom: 20px;
-  margin-top: -16px;
 }
 .content-right > h3 {
   font-size: 30px;
@@ -191,6 +228,7 @@ li {
 
 }
 .container-content  {
+  padding-left: 45px;
   border-bottom: 1px solid #000;
   margin-bottom: 11px;
 }
@@ -203,9 +241,18 @@ li {
   line-height: 26px;
   font-weight: 700;
 }
+.contact-address {
+  line-height: 25px;
+}
 .contact-address > p {
   font-size: 19px;
 }
 .contact-address-social {
   font-size: 19px;
+}
+.contact-social{
+  line-height: 25px;
+}
+.icon-social {
+  cursor: pointer;
 }
