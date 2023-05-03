@@ -111,7 +111,7 @@
     }
     .content-title ul li {
         width: 100%;
-        font-size: 1.4rem;
+        font-size: 1.6rem !important;
         justify-content: space-around;
     }
     .icon-next-right {
@@ -205,6 +205,9 @@
 
 }
 @media (max-width: 1199.98px) { 
+    .border-xl {
+        border: none !important;
+    }
     .header-logo > h1 {
         font-size: 1.555rem;
     }
@@ -245,8 +248,9 @@
         object-fit: cover;
     }
     .footer .contact-social .contact-address-social {
+        font-size: 1.2rem;
         text-align: center;
-        font-size: 1.6rem;
+        padding-left: 1.2rem;
     }
     .contact-address > .footer-text-right{
         font-size: 1.6rem;
@@ -260,4 +264,89 @@
         font-size: 1.5rem;
 
     }
-}    
+} 
+@media (max-width: 575.98px) { 
+    .content__title-text {
+        font-size: 1.4rem !important;
+    }
+    .content-title > h1 {
+        font-size: 1.8rem;
+    }
+    .content-title ul li {
+        font-size: 0.9rem !important;
+    }
+    .content-title ul {
+        padding-top: 1rem !important;
+    }
+    .content-text-1 h2 {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1;
+        max-width: 13rem;
+        padding-right: 0;
+    }
+
+    .content-text-1 .content-text-1-info {
+        font-size: 1rem !important;
+        line-height: 1.2;
+        max-width: 13rem;
+
+    }
+    .content-img-1 {
+        width: 15rem !important;
+        height: 12rem !important;
+        object-fit: cover !important;
+    }
+    .xs-col {
+        width: 50%;
+        height: 50%;
+    }
+    .content-text-1 {
+        width: 50%;
+        height: 50%;
+    }
+    .container-content {
+        padding: 0;
+        border-right: none !important;
+    }
+    .col-8-mr {
+        margin-top: 0 !important;
+    }
+    .icon-next-right {
+        display: block;
+        width: 2.3rem;
+        height: 2rem;
+    }
+    .content-text-3 {
+        padding-left: 1rem !important;
+    }
+    .content-text-3 h2 {
+        font-size: 1.8rem;
+    }
+    .content-text-3 .content-text-3-info {
+        font-size: 1.2rem;
+        letter-spacing: normal;
+        line-height: 1.2;
+    }
+    .content-2-btn {
+        font-size: 1rem;
+        padding-top: 1rem !important;
+
+    }
+    .content-img-3 {
+        width: 12rem;
+        height: 9rem;
+    }
+    .btn-5 {
+        display: none;
+    }
+    .contact-address p {
+        font-size: 1.2rem;
+        max-width: 28rem;
+    }
+    .contact-address-social {
+        font-size: 1.2rem;
+    }
+    
+
+}   
